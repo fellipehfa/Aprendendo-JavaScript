@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTADOR</title>
+   <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>VAMOS CONTAR</h1>
+  </header>
+  <section>
+    <div class= "d1">
+        <p>Numero Inicial:
+         <input class = "lado" type="number" name="txtinicio" id="txtinicio" min="0">
+        </p>
+        <p>Numero Final:
+          <input class = "lado" type="number" name="txtfim" id="txtfim" min="0">
+        </p>
+        <p>Intervalos por vez:
+          <input class = "lado" type="number" name="txtinter" id="txtinter" min="0">
+        </p>
+        <p>
+          <input type="button" value="CONTAR!" onclick='contar()'>
+       </p>
+    </div>
+    <div id=res>
+      A contagem aparecerá aqui!
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Moroogrin</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
