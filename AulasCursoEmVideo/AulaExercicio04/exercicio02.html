@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RELÓGIO</title>
+  <title>TABOADA</title>
    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <header>
-    <h1>Titulo</h1>
+    <h1>VAMOS APRENDER A TABOADA!!</h1>
   </header>
   <section>
     <div>
-      Testando
+      Digite um numero para multiplicar:
+      <input type="number" name="txtn" id="txtn">
+      <input type="button" value="MULTIPLICAR!" onclick="multiplicar()">
     </div>
-    <div>
-
+    <div id="res">
+      <select name="taboada" id="taboada" size="11">
+        <option>Vamos multiplicar...</option>
+      </select>
     </div>
   </section>
   <footer>
