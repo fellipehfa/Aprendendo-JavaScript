@@ -13,3 +13,11 @@ console.log (`Na posição ${pos} o elemento do vetor é ${num[pos]}`)
 }
 console.log (num.indexOf(9))
 console.log (num.indexOf(1))
+
+let numeros = [1,2,3,4,5]
+let soma=0
+for(let pos in numeros){
+
+  soma = soma + numeros[pos]
+}
+console.log (soma)
